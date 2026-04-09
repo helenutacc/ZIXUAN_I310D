@@ -3,6 +3,9 @@ def compute_area_of_circle(radius):
 	area = pi * radius * radius
 	return area
 
+#new changes
+print("This program computes the area of a circle given its radius.")
+
 radius1 = 30
 area1 = compute_area_of_circle(radius1)
 print(f"The area of circle with radius {radius1} is: {area1}")
